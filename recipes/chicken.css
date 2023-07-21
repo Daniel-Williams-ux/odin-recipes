@@ -12,7 +12,8 @@ body {
 }
 
 img {
-    width: 400px;
+    height: auto;
+    width: 500px;
 }
 
 ul {
@@ -24,16 +25,14 @@ h1 {
 }
 
 .recipe-card {
-    width: 400px;
+    width: 80%;
     text-align: center;
     background-color: #FFFAFA;
     margin: auto;
-    margin-top: 20px;
     padding: 50px;
 }
 
-a {
-    text-decoration: none;
-    margin: 20px;
-    padding: 10px 12px 10px 12px;
+.recipe-content {
+    text-align: left;
+    padding: 20px;
 }
